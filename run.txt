@@ -1,0 +1,12 @@
+server:
+
+clang++ server.cpp -o server -lsqlite3
+
+./server
+
+
+client:
+
+clang++ client.cpp -o client
+
+./client
